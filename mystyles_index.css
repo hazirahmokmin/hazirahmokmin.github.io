@@ -57,7 +57,7 @@ h5{
     font-size: 18px;
 }
 
-p {
+p, .skillheader {
     font-family: Noto Sans, Arial, sans-serif;
     color:#503E35;
     letter-spacing: 0.5px;
