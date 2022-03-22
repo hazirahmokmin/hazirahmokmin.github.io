@@ -89,8 +89,8 @@ p {
 #dtbanner{
     background-image: url("images/lightbulb_bckgrd.png");
     background-size:100%;
-    background-repeat: no-repeat;
     padding: 3%;
+    object-fit: fill;
 }
 
 /*translucent bg for dt journey*/
