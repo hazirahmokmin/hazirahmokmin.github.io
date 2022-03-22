@@ -1,0 +1,47 @@
+#altcontactpinkbg{
+    background-color:#EAD4CD;
+}
+
+#altcontactbg{
+    background-image: url("images/altcontact_details_background.png");
+    background-size: 100%;
+}
+
+#altcontact {
+    padding: 20%;
+}
+
+#getintouch {
+    padding: 4%;
+    padding-top: 5%;
+
+}
+
+label {
+    font-family: Noto Sans, Arial, Helvetica, sans-serif;
+    color:#503e35;
+    
+}
+
+#salutation {
+    width: 100%;
+    background-color: #FCFCFC;
+    border: none;
+    color: #503e35;
+    font-family: Noto Sans, Arial, Helvetica, sans-serif;
+}
+
+#submitbtn {
+    float: right;
+    width: 20%;
+}
+
+input, textarea {
+    font-family: Noto Sans, Arial, Helvetica, Sans-serif;
+}
+
+
+.btn-primary:focus{
+    color: #FCFCFC;
+    background-color: #b35555;
+}

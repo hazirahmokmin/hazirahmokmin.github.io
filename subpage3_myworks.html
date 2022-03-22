@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hazirah's Works</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="/images/H-favicon.ico">
+    <!--Bootstrap 5 CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--my own css-->
+    <link rel="stylesheet" href="mystyles_index.css">
+    <link rel="stylesheet" href="subpage3_mystyles.css">
+</head>
+<body>
+
+<!--scroll to top button-->
+<button onclick="topFunction()" id="myBtn" title="Go to top"> Back to Top</button>
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <!--logo brand-->
+      <a class="navbar-brand ms-2" href="index.html"><img src="images/HM_Logo.png" width="70" height="70"class="d-inline-block align-text-top"></a>
+      <!--collapsible button-->
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--navbar contents-->
+        <div class="navbar-collapse collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-2">
+            <li class="nav-item ms-auto">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item ms-auto">
+              <a class="nav-link active" href="subpage3_myworks.html">My Works</a>
+            </li>
+            <li class="nav-item ms-auto">
+              <a class="nav-link" href="subpage1_designthinking.html">Design Thinking</a>
+            </li>
+            <li class="nav-item ms-auto">
+              <a class="nav-link" href="subpage2_contactme.html">Contact Me</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-1 ms-auto" type="search" placeholder="Search within this website" aria-label="Search" style="font-family:Noto Sans; font-size:12px; width: 12rem; border-radius: 25px;">                
+            <button class="btn btn-outline-success" id="searchbtn" type="submit"><img src="images/magnifying-glass-search.png" width="20" height="20"></button>
+          </form>
+        </div>
+
+      
+      </div>
+  </nav>
+
+  <!--Header-->
+  <h1 id="workheader">A page dedicated to my favourite artworks created by <i>yours truly</i>.</h1>
+
+  
+
+  <!--carousel highlights-->
+  <div class="container mt-5">
+    <div id="carouselwithCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselwithCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselwithCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselwithCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselwithCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000"><a href="#digitalartsect">
+          <img src="images/recent_works/digitalarts_highlights.png" class="d-block w-100 justify-content-center" alt="A mockup of a digital illustration" height="100%"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Digital Arts</h5>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <a href="#modelsect"><img src="images/recent_works/3dmodel_highlights.png" class="d-block w-100" alt="3D model of a teapot"  height="100%"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>3D Modelling</h5>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <a href="#paintsect"><img src="images/recent_works/painting_highlights.png" class="d-block w-100" alt="Watercolour Painting"  height="100%"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Watercolour Painting</h5>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <a href="#embroiderysect"><img src="images/recent_works/embroidery_highlights.png" class="d-block w-100" alt="Embroidery on a totebag" height="100%"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Embroidery</h5>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselwithCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselwithCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+
+
+<!--Digital Arts Section-->
+<div class="container-fluid mt-5" id="digitalartsectbg">
+    <div class="container" id="digitalartsect">
+    <h2>Digital Arts</h2>
+    <p>Creating illustrations and artworks using digital technology, such as procreate, as a medium.</p>
+    <div class="card-group">
+        <div class="card">
+          <img src="images/recent_works/digitalarts_1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Stylised Scenes</h5>
+            <p class="card-text">Created digital stylised scenes using furnitures and everyday tools as an inspiration. This skill was picked up from one of the classes in Skillshare.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/recent_works/digitalarts_2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Illustrations</h5>
+            <p class="card-text">Using images that clients have sent, I've created digital illustrations, which can be used for other purposes such as card greetings, or even as a t-shirt print.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/recent_works/digitalarts_3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card Greetings</h5>
+            <p class="card-text">Created digital card greetings which can be used as a festive greeting for family and friends.</p>
+          </div>
+        </div>
+        <div class="card">
+            <img src="images/recent_works/digitalarts_4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Digital Textures</h5>
+              <p class="card-text">With different tools available on Procreate, I created digital textures which can be used to further enhance my designs.</p>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+
+
+</div>
+
+
+
+<!--3D Modelling Section-->
+<div class="container-fluid" id="modelsectbg">
+    <div class="container" id="modelsect">
+    <h2>3D Modelling</h2>
+    <p>Modelling real-life objects into digital copies using Blender.</p>
+    <div class="card-group">
+        <div class="card">
+          <img src="images/recent_works/3dmodel_1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Toy Excavator</h5>
+            <p class="card-text">Due to the intricate details of the toy excavator, such as the bucket and the small items on the side of the track, it requires creative skills to create these objects.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/recent_works/3dmodel_2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Shiba Inu Plushie</h5>
+            <p class="card-text">It was important to ensure the scale of every objects on this plushie is as accurate as possible to ensure that it looks like the intended object. This was especially hard for its snout.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/recent_works/3dmodel_3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Van</h5>
+            <p class="card-text">While modelling each objects that makes up this van was relatively doable, it was more important to get the textures of them right, especially for the windows.</p>
+          </div>
+        </div>
+        <div class="card">
+            <img src="images/recent_works/3dmodel_4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Gorgeous Doughnut</h5>
+              <p class="card-text">Are you craving for a doughnut now? But all jokes aside, it was for this object when I got the opportunity to use the sculpting tool in Blender to make that dripping part of the icing.</p>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+
+
+</div>
+
+
+
+<!--Painting Section-->
+<div class="container-fluid mt-5" id="paintsectbg">
+    <div class="container" id="paintsect">
+    <h2>Watercolour Paintings</h2>
+    <p>Using watercolour as a painting medium to create art pieces for card greetings and typography background.</p>
+    <div class="card-group">
+        <div class="card">
+          <img src="images/recent_works/painting_1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Beauty of White</h5>
+            <p class="card-text">Displayed the beauty of whites against black with accents of gold.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/recent_works/painting_2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Happy Birthday</h5>
+            <p class="card-text">Painted loose florals at the corner as a decorative element of the "Happy Birthday" greeting.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/recent_works/painting_3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Thank You</h5>
+            <p class="card-text">Flowers were painted along the borders of the middle typography of a "Thank You" card.</p>
+          </div>
+        </div>
+        <div class="card">
+            <img src="images/recent_works/painting_4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Life is A Journey</h5>
+              <p class="card-text">Painted a floral border around the typography, making it the perfect gift for a friend.</p>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+
+
+</div>
+
+
+
+
+<!--Embroidery Section-->
+<div class="container-fluid" id="embroiderysectbg">
+    <div class="container" id="embroiderysect">
+    <h2>Embroidery</h2>
+    <p>Using needle and threads to create artworks on a fabric tote bag as the canvas.</p>
+    <div class="card-group">
+        <div class="card">
+          <img src="images/recent_works/embroidery-1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Autumn All Year</h5>
+            <p class="card-text">Embroidered ranges of yellow and orange flowers within a border to portray the beauty of autumn colours.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/recent_works/embroidery_2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cat On A Bike</h5>
+            <p class="card-text">Embroidered a bicycle with a cat sitting on its seat for a bicycle-lover friend.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/recent_works/embroidery_3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Drum Roll</h5>
+            <p class="card-text">Embroidered a whole drum set for a drum-fan friend. Because of its intricate details, it took me almost a week to complete this piece.</p>
+          </div>
+        </div>
+        <div class="card">
+            <img src="images/recent_works/embroidery-4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Spring Around</h5>
+              <p class="card-text">Who doesn't love flowers? Embroidered florals as a border around the letter "a".</p>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+
+
+</div>
+
+
+
+<!--motivational quote-->
+<div class="row d-flex justify-content-start align-items-center" id="quotebg">
+    <div class="container" id="motivquote">
+      <figure>
+        <blockquote class="blockquote">
+          <p>Think of it this way... Every great wizard in history has started out as nothing more than what we are now: <b>students</b>.<br>If they can do it, <b>why not us?</b></p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          Harry Potter, <cite title="Source Title">Harry Potter and the Order of the Phoenix (2007)</cite>
+        </figcaption>
+      </figure>
+  </div>
+
+
+
+<!--footer-->
+<div id="nav-footer">
+    <div class="container-fluid">
+      <div class="row footer">
+        <div class="col-lg-2 col-md-6">
+          <h5>Page Directory</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="subpage3_myworks.html" class="nav-link p-0 text-muted">My Works</a></li>
+              <li class="nav-item mb-2"><a href="subpage1_designthinking.html" class="nav-link p-0 text-muted">Design Thinking</a></li>
+              <li class="nav-item mb-2"><a href="subpage2_contactme.html" class="nav-link p-0 text-muted">Contact Me</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5>Social Media Links</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="https://www.instagram.com/alilpetiteartist/" class="nav-link p-0 text-muted" target="_blank">Instagram</a></li>
+              <li class="nav-item mb-2"><a href="https://www.linkedin.com/in/siti-nurhazirah-mokmin-93864094/" class="nav-link p-0 text-muted" target="_blank">LinkedIn</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted" target="_blank">Facebook</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted" target="_blank">Twitter</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-8 d-inline-flex justify-content-end align-items-center" id="copyright">
+          <p>© Copyright 2022, Hazirah Mokmin.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- Bootstrap 5 Script-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<script src="subpage3.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Design Thinking</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="/images/H-favicon.ico">
+    <!--Bootstrap 5 CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--my own css-->
+    <link rel="stylesheet" href="mystyles_index.css">
+    <link rel="stylesheet" href="subpage1_mystyles.css">
+    <link rel="stylesheet" href="backtotopbtn.css">
+</head>
+<body>
+
+  <!--scroll to top button-->
+  <button onclick="topFunction()" id="myBtn" title="Go to top"> Back to Top</button>
+
+
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+
+      <!--logo brand-->
+      <a class="navbar-brand ms-2" href="index.html"><img src="images/HM_Logo.png" width="70" height="70"class="d-inline-block align-text-top"></a>
+      <!--collapsible button-->
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--navbar contents-->
+      <div class="navbar-collapse collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-2">
+          <li class="nav-item ms-auto">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item ms-auto">
+            <a class="nav-link" href="subpage3_myworks.html">My Works</a>
+          </li>
+          <li class="nav-item ms-auto">
+            <a class="nav-link active" href="subpage1_designthinking.html">Design Thinking</a>
+          </li>
+          <li class="nav-item ms-auto">
+            <a class="nav-link" href="subpage2_contactme.html">Contact Me</a>
+          </li>
+        </ul>
+          <form class="d-flex">
+            <input class="form-control me-1 ms-auto" type="search" placeholder="Search within this website" aria-label="Search" style="font-family:Noto Sans; font-size:12px; width: 12rem; border-radius: 25px;">                
+            <button class="btn btn-outline-success" id="searchbtn" type="submit"><img src="images/magnifying-glass-search.png" width="20" height="20"></button>
+          </form>
+        </div>
+    </div>
+  </nav>
+  
+
+  <!--Design Thinking Header-->
+  <div class="container">
+    <div class="row g-3">
+
+      <div class="col-lg-4 col-md-6 ms-auto">
+        <img src="images/lightbulb_dtintrobanner.png" class="img-fluid" id="dtlightbulb" width="100%" height="100%">
+      </div>
+
+      <div class="col-lg-5 col-md-6 me-auto d-flex align-items-end">
+        <div class="container">
+          <h1>Design Thinking</h1>
+          <br>
+          <p>Design Thinking is an iterative, user-centric process that helps to create a website that meets the users’ needs. While this process can differ depending on the project needs, it is mainly made up of six phases: <b>empathise, define, ideate, prototype, test</b> and <b>implement</b>.</p>
+          <p class="mb-0">Let’s dive deeper into how I used these steps to design this website!</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!--Pink divider-->
+  <hr class="solid mt-5 mb-5">
+
+  <!--Content Section-->
+  <div class="container">
+    <div class="row g-5">
+      <!--sidebarnav-->
+      <div class="col-lg-3 col-md-2 col-sm-2 d-flex justify-content-end">
+        <ol class="list-unstyled mb-0" id="sidenavbar">
+          <li><a href="#empathysect">Empathy</a></li>
+          <li><a href="#definesect">Define</a></li>
+          <li><a href="#ideatesect">Ideate</a></li>
+          <li><a href="#prototypesct">Prototype</a></li>
+          <li><a href="#testsect">User Testing</a></li>
+          <li><a href="#implementsect">Implement</a></li>
+        </ol>
+      </div>
+      
+      <!--Article Section-->
+      <div class="col-lg-7 col-md-10 col-sm-10">
+        <!--Empathy Section-->
+        <div class="container mb-5">
+          <h2 id="empathysect">1. Empathy</h2>
+          <br>
+          <p>When we empathise with users, it is important for us to understand our users, which involves knowing what they are <i>feeling, saying, doing</i> and <i>thinking</i>. This helps us to see both the positive and negative parts of a product from a user perspective instead of a designer's, which otherwise can be biased.</p>
+          <p>So, how do I do it with this website?</p>
+          <p>Firstly, I need to define the objective of this website to identify my target users. While there are many possibilities, I identified one as my main focus;<b> to provide a brief introduction about myself and showcase my capabilities and skills to potential hirers,</b> of which whom that can be you.</p>
+          <p>And with that, I've identified the following as the demographic of my target users; business-owners looking to expand their business, or a company's Human Resource representative looking to hire a designer. From here on, I conducted many online studies and surveys with potential users as part of my user research to identify their needs and pain points. This includes researching on the features that are important for these users before they decide on hiring the designer.</p>
+        </div>
+
+        <hr class="greyline">
+
+        <!--Define Section-->
+        <div class="container mt-5 mb-5">
+          <h2 id="definesect">2. Define</h2>
+          <br>
+          <p>From my user research, I found out that majority of the website's target users do not have the luxury of time to examine every single detail of a person's porfolio, and that first impression matters a lot.</p>
+          <p>With my findings, I came up with a broad problem statement which will lead me in coming up with various possible layout designs that prioritise the right features on my website. It is important for me to identify the target user in mind, users' requirements that need to be met, and the insights that we need to tackle using the solution in mind.</p>
+          <p id="problemstatement"><b>Problem Statement:</b><br>Potential Hirers <small>(users)</small> need a concise yet informative website with ease of navigation <small>(needs)</small> because they have little time to go through an entire portfolio before deciding to hire <small>(insights)</small>.</p>
+        </div>
+
+        <hr class="greyline">
+
+        <!--Ideate Section-->
+        <div class="container mt-5 mb-5">
+          <h2 id="ideatesect">3. Ideate</h2>
+          <br>
+          <p>With the problem statement in mind, I utilised the Crazy 8's method to come up with possible layout designs of the website that suits the users' needs while prioritising its aesthetics. It is especially important for me to emphasise the right features that are essential for the users upon entering the website to invoke a positive emotion from them.</p>
+          <p>Take a look at how I sketched my website layouts using the Crazy 8's method!</p>
+          <div class="row ideateimages">
+            <div class="col-lg-6">
+              <figure class="figure">
+                <!--change image to button-->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#homepageideate">
+                <img src="images/crazy8s_homepage.jpg" class="figure-img img-fluid rounded" alt="..."></button>
+                <!--Modal Action-->
+                <div class="modal fade" id="homepageideate" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="homepgModalLabel">"Home" Page</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <img src="images/crazy8s_homepage.jpg" class="figure-img img-fluid rounded" alt="...">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--figure caption-->
+                <figcaption class="figure-caption">Sketches for "Home" page.</figcaption>
+              </figure>
+            </div>
+            <div class="col-lg-6">
+              <figure class="figure">
+                <!--change image to button-->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myworksideate"><img src="images/crazy8s_subpage3.jpg" class="figure-img img-fluid rounded" alt="..."></button>
+                <!--Modal Action-->
+                <div class="modal fade" id="myworksideate" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="myworksModalLabel">"My Works" Page</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <img src="images/crazy8s_subpage3.jpg" class="figure-img img-fluid rounded" alt="...">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--figure caption-->
+                <figcaption class="figure-caption">Layouts to display my past works.</figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="row ideateimages">
+            <div class="col-lg-6">
+              <figure class="figure">
+                <!--change image to button-->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#designthinkideate"><img src="images/crazy8s_dt.jpg" class="figure-img img-fluid rounded" alt="..."></button>
+                <!--Modal Action-->
+                <div class="modal fade" id="designthinkideate" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="dtModalLabel">"Design Thinking" Page</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <img src="images/crazy8s_dt.jpg" class="figure-img img-fluid rounded" alt="...">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--figure caption-->
+                <figcaption class="figure-caption">Layouts for my "Design Thinking" page.</figcaption>
+              </figure>
+            </div>
+            <div class="col-lg-6">
+              <figure class="figure">
+                <!--change image to button-->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactmethinkideate"><img src="images/crazy8s_formvalidate.jpg" class="figure-img img-fluid rounded" alt="..."></button>
+                <!--Modal Action-->
+                <div class="modal fade" id="contactmethinkideate" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="dtModalLabel">"Contact Me" Page</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <img src="images/crazy8s_formvalidate.jpg" class="figure-img img-fluid rounded" alt="...">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--figure caption-->
+                <figcaption class="figure-caption">Sketches to display my contact details.</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+
+        <hr class="greyline">
+
+        <!--Prototype Section-->
+        <div class="container mt-5 mb-5">
+          <h2 id="prototypesct">4. Prototype</h2>
+          <br>
+          <p>Based on the sketches made in Phase 3, I decided on a final design that best suits the users' needs. With that, I made a high-fidelity prototype using Adobe XD to design a website that looks and behaves closest to the expected final outcome.</p>
+          <p>Watch the following video for a final look of my first prototype!</p>
+          <iframe src="videos/prototype exercise_edited.mp4" width="100%" height="400"></iframe>
+        </div>
+
+        <hr class="greyline">
+
+        <!--Test Section-->
+        <div class="container mt-5 mb-5">
+          <h2 id="testsect">5. User Testing</h2>
+          <br>
+          <p>Using the prototype created in Phase 4, I tested it on the targeted users to find out its usefulness by measuring its utility and usability.</p>
+          <h3>Plan for Usability Testing</h3>
+          <p>Following was my plan for my usability testing (UT):</p>
+          <p><b>Goal of UT:</b><br>To find out if the website meets the users' needs in terms of aesthetics factor and ease of navigation and if they are willing to hire this designer based on this website and its content.</p>
+          <p><b>Scope of UT:</b><br>A qualitative test involving 5 people to uncover as much usability insights as possible.<br>User's first impression of the website and relevance of its content and their ease of navigation between pages of the website.</p>
+          <p class="mb-0 usersprofile"><b>UT Participants:</b><ul style="list-style-type:square;">
+            <li>30 to 40 years old</li>
+            <li>Novice users</li>
+            <li>Need not necessarily be tech-savvy but knows how to navigate through a website.</li>
+          </ul></p>
+          <p class="mb-0"><b>UT Participants' Tasks:</b>
+            <ol type="1">
+              <li>Task 1
+                <p class="mb-0"><i>Scenario:</i> User intend to hire this designer and would like to check out her portfolio.</p>
+                <p class="mb-0"><i>User Goal:</i> To find out users' first impression of the website.</p>
+                <p class="mb-0"><i>Task:</i> You are looking to hire a new web developer for your business website. Can you let me know what is your first impression of the website?</p>
+                <p><i>Success Criteria:</i> User's satisfaction level.</p>
+              </li>
+              <li>Task 2
+                <p class="mb-0"><i>Scenario:</i> User wish to know more of designers' skills and check out her past works.</p>
+                <p class="mb-0"><i>User Goal:</i> To see if participant can easily navigate to "My Works" page and find out the relevance of its contents.</p>
+                <p class="mb-0"><i>Task:</i> You wish to assess the skills of this designer for you to decide if you wish to hire her.</p>
+                <p><i>Success Criteria:</i> User's satisfaction level, and percentage of users that uses the optimal navigation path.</p>
+              </li>
+              <li>Task 3
+                <p class="mb-0"><i>Scenario:</i> User decided to hire this designer and wishes to contact her.</p>
+                <p class="mb-0"><i>User Goal:</i> To see if participant can easily find the owner's contact details in order to hire the designer.</p>
+                <p class="mb-0"><i>Task:</i> You wish to hire this designer. Can you show me how will you contact this person?</p>
+                <p><i>Success Criteria:</i> User's satisfaction level, and error rate.</p>
+              </li>
+            </ol>
+          </p>
+
+          <h3>UT Findings</h3>
+          <p>From the UT conducted with the participants, I was able to recognise both the good and bad points of the website that I've created. Below are some of the feedback that I've received from them.</p>
+          <p id="positivefeedback"><b>Positive Feedbacks:</b><br>"It was easy to navigate from one page to another."<br>"I am able to find the contact details easily. And if I prefer to go through social media means, I'm able to find that information easily."<br>"I love the minimal design on this webpage."</p>
+          <p id="negfeedback"><b>Things that can be further improved:</b><br>"The contents <small>(on the "Design Thinking Journey" page)</small> is stretched out across the page and it's quite hard to read."<br>"There is no visual feedback to know which is a clickable link and which is not."<br>"<i>'My Works'</i> is the first button that I see upon entering the webpage <small>(on the highlights banner)</small>. However, the pages on the navigation bar does not follow this order."<br>"It would be good to have a <i>'Back to Top'</i> button after scrolling all the way to the bottom on <i>'Design Thinking'</i> and <i>'My Works'</i> pages."</p>
+          <p>Based on these findings, I re-designed the prototype that addresses their feedbacks and carried out another testing. This was repeated until majority of their comments were addressed.</p>
+        </div>
+
+
+        <hr class="greyline">
+
+        <!--Implement Section-->  
+        <div class="container mt-5 mb-5">
+          <h2 id="implementsect">6. Implement</h2>
+          <br>
+          <p>Well, after all the hardwork that we've done so far, we need to create the final website, right? Here we are, the finalised website that has been designed based on the final prototype with users' feedbacks into consideration. Using HTML, CSS and javascript, this website was coded using Bootstrap 5 framework.</p>
+          <p>From here on, this is when we will collect real-time and live feedback from users before we start reiterating the whole design thinking process.</p>
+        </div>
+
+    
+      </div>
+    </div>
+  </div>
+
+  <!--footer-->
+  <div id="nav-footer">
+    <div class="container-fluid">
+      <div class="row footer">
+        <div class="col-lg-2 col-md-6">
+          <h5>Page Directory</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="subpage3_myworks.html" class="nav-link p-0 text-muted">My Works</a></li>
+              <li class="nav-item mb-2"><a href="subpage1_designthinking.html" class="nav-link p-0 text-muted">Design Thinking</a></li>
+              <li class="nav-item mb-2"><a href="subpage2_contactme.html" class="nav-link p-0 text-muted">Contact Me</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5>Social Media Links</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="https://www.instagram.com/alilpetiteartist/" class="nav-link p-0 text-muted" target="_blank">Instagram</a></li>
+              <li class="nav-item mb-2"><a href="https://www.linkedin.com/in/siti-nurhazirah-mokmin-93864094/" class="nav-link p-0 text-muted" target="_blank">LinkedIn</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted" target="_blank">Facebook</a></li>
+              <li class="nav-item mb-2"><a href="https://twitter.com/ALilPetiteArti1" class="nav-link p-0 text-muted" target="_blank">Twitter</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-8 d-inline-flex justify-content-end align-items-center" id="copyright">
+          <p>© Copyright 2022, Hazirah Mokmin.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Bootstrap 5 Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="subpage3.js"></script>    
+</body>
+</html>
