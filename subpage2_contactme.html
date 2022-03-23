@@ -14,6 +14,26 @@
     <link rel="stylesheet" href="subpage2_mystyles.css">
     <!--social media icons CSS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Script to save web form data-->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"></script>
+    <script>
+      function SubForm (){
+          $.ajax({
+              url:'https://api.apispreadsheets.com/data/whmItwMvJ6q7eroM/',
+              type:'post',
+              data:$("#contactmeform").serializeArray(),
+              success: function(){
+                alert("Form Data Submitted :)")
+              },
+              error: function(){
+                alert("There was an error :(")
+              }
+          });
+      }
+    </script>
 </head>
 <body>
     <!--Navbar-->
@@ -84,7 +104,7 @@
         </div>
 
         <!--Form Validation-->
-        <form class="needs-validation" novalidate><!-- novalidate so that can use custom styling; needs-validate needed for js-->
+        <form class="needs-validation" id="contactmeform" novalidate><!-- novalidate so that can use custom styling; needs-validate needed for js-->
           <div class="row g-3">
             <!--Salutations-->
             <div class="col-3 d-flex align-items-end">
@@ -136,9 +156,11 @@
           <br>
 
           <!--Submit button-->
-          <button type="submit" class="btn btn-primary mb-5" id="submitbtn">Submit</button> <!--button type needs to be submit for validation-->
+          <button type="submit" class="btn btn-primary mb-5" id="submitbtn" form="submitdata">Submit</button> <!--button type needs to be submit for validation-->
 
         </form>
+         <!--Submit button to save web data-->
+        <button onclick="SubForm()" id="submitdata"></button>
 
       </div>
       
