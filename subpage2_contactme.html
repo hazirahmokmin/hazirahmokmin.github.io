@@ -109,7 +109,7 @@
             <!--Salutations-->
             <div class="col-3 d-flex align-items-end">
               <div class="form-floating w-100">
-                <select class="form-select" id="salutation" aria-label="Floating label select salutation">
+                <select name="salutation" class="form-select" id="salutation" aria-label="Floating label select salutation">
                   <option value="mr">Mr</option>
                   <option value="sir">Sir</option>
                   <option value="miss">Miss</option>
@@ -123,7 +123,7 @@
             <!--Name input-->
             <div class="col-9">
               <div class="form-floating">
-                <input type="text" class="form-control" id="nameInput" placeholder="Name" required> <!-- have to add in required for validation-->
+                <input name="full_name" type="text" class="form-control" id="nameInput" placeholder="Name" required> <!-- have to add in required for validation-->
                 <label for="nameInput">Name</label>
                 <div class="invalid-feedback">Please enter your name.</div>
               </div>
@@ -135,7 +135,7 @@
           <div class="row">
             <div class="col-12">
               <div class="form-floating">
-                <input type="text" class="form-control" id="emailInput" placeholder="emailaddress" required> <!-- have to add in required for validation-->
+                <input name="email address" type="text" class="form-control" id="emailInput" placeholder="emailaddress" required> <!-- have to add in required for validation-->
                 <label for="emailInput">Email Address</label>
                 <div class="invalid-feedback">Please enter your email address.</div>
               </div>
@@ -147,7 +147,7 @@
           <div class="row">
             <div class="col-12">
               <div class="form-floating">
-                <textarea class="form-control" placeholder="Leave a comment here" id="msginput" style="height: 250px" required></textarea>
+                <textarea name="message" class="form-control" placeholder="Leave a comment here" id="msginput" style="height: 250px" required></textarea>
                 <label for="msginput">Message</label>
                 <div class="invalid-feedback">Please enter your message.</div>
               </div>
