@@ -18,3 +18,5 @@
         }, false)
       })
   })()
+
+ document.getElementById('submitdata').hidden=true
